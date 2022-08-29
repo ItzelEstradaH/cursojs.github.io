@@ -6,7 +6,7 @@ const contadorCarrito = document.querySelector("#cart-counter")
 var productos = []
 
 const getProducts = async () => {
-  return fetch('/js/data.json').then((res) => res.json()).then((data) => data)
+  return fetch('./js/data.json').then((res) => res.json()).then((data) => data)
 }
 
 async function main(){

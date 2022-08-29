@@ -1,0 +1,27 @@
+.fa-shopping-cart {
+    font-size: 25px;
+    color: #85e4f7;
+    cursor: pointer;
+  }
+
+#cart-counter {
+  background-color: white;
+  padding: 0px 6px;
+  color: #85e4f7;
+  border-radius: 50%;
+  border: solid 1px #85e4f7;
+  font-weight: bold;
+}
+
+.filters {
+  margin-left: auto;
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.clear-cart {
+  margin-left: auto;
+  margin-top: 1.5rem;
+}
+  
